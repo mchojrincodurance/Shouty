@@ -9,8 +9,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StepDefinitions {
 
-    private final Person sean = new Person();
-    private final Person lucy = new Person();
+    private final Person sean = new Person("Sean");
+    private final Person lucy = new Person("Lucy");
     private String messageFromSean;
 
     @Given("Lucy is located {int} metres from Sean")
